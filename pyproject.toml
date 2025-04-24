@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fluxodb"
+version = "0.0.1"
+description = "A NoSQL Database focus in Fast, Custom, Modular and Easy-First"
+authors = ["Nulocat"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.1.0"
+black = "^25.1.0"
+pylint = "^3.3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
